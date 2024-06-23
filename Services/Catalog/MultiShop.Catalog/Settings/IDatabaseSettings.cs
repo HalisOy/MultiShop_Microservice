@@ -1,6 +1,6 @@
 ﻿namespace MultiShop.Catalog.Settings;
 
-public interface IDatebaseSettings
+public interface IDatabaseSettings
 {
     public string CategoryCollectionName { get; set; }
     public string ProductCollectionName { get; set; }
